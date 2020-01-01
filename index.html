@@ -5,7 +5,7 @@
   <!-- font awesome script for icons -->
   <script src="https://kit.fontawesome.com/8c49fafc83.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/backgrounds.css">
-  <link rel="stylesheet" type="text/css" href="css/lists.css">
+  <link rel="stylesheet" type="text/css" href="css/general_styles.css">
 </head>
 <body>
   <header>
@@ -24,7 +24,7 @@
   
   <main>
     <section class="carosel_section">
-      <div class="carosel">
+      <div class="carosel_container">
         <div class="carosel_card card1">
           <h2>End-of-year clearance</h2>
           <p>Snag last-chance buys at low, low prices.</p>
@@ -73,32 +73,34 @@
     </section> <!-- /carosel_section -->
 
     <section class="featured_tiles_section">
-      <div class="featured_tiles_section-tile">
-        <div class="featured_tiles_section-tile-icon Walmart_logo"></div>
-        <img class="walmart_pickup-image" src="images/walmart_pickup-image.png">
-        <p>Free Grocery Pickup</p>
-        <a href="">Start an Order</a>
-        <p>Shop Your Store</p>
-        <a href="">Pickup Today</a>
-        <div class="walmart_pickup-address">
-          <a href="">Vicksburg Supercenter</a>
-          <p>2150 Iowa Blvd, Vicksburg</p>
+      <div class="featured_tiles_container">
+        <div class="featured_tiles_section-tile">
+          <div class="featured_tiles_section-tile-icon Walmart_logo"></div>
+          <img class="walmart_pickup-image" src="images/walmart_pickup-image.png">
+          <p>Free Grocery Pickup</p>
+          <a href="">Start an Order</a>
+          <p>Shop Your Store</p>
+          <a href="">Pickup Today</a>
+          <div class="walmart_pickup-address">
+            <a href="">Vicksburg Supercenter</a>
+            <p>2150 Iowa Blvd, Vicksburg</p>
+          </div>
         </div>
-      </div>
 
-       <div class="featured_tiles_section-tile">
-        <div class="featured_tiles_section-tile-icon trending_logo"></div>
-        <a href="">Massage Cushion<img src="images/Massage_cushion.jpg"></a>
-        <a href="">Modern Warfare PS4 Game<img src="images/Modern_Warfare_PS4_Game.jpg"></a>
-        <a href="">Android Smartphone<img src="images/Android_Smartphone.jpg"></a>
-      </div>
+         <div class="featured_tiles_section-tile">
+          <div class="featured_tiles_section-tile-icon trending_logo"></div>
+          <a href="">Massage Cushion<img src="images/Massage_cushion.jpg"></a>
+          <a href="">Modern Warfare PS4 Game<img src="images/Modern_Warfare_PS4_Game.jpg"></a>
+          <a href="">Android Smartphone<img src="images/Android_Smartphone.jpg"></a>
+        </div>
 
-      <div class="featured_tiles_section-tile">
-        <div class="featured_tiles_section-tile-icon delivery_logo"></div>
-        <p>Free TwoDay delivery on millions of items</p>
-        <p>On orders of $35 or more.</p>
-        <a href="">Start shopping</a>
-        <img class="walmart_delivery_boxes-image" src="images/walmart_delivery_boxes-image.png" alt="">
+        <div class="featured_tiles_section-tile">
+          <div class="featured_tiles_section-tile-icon delivery_logo"></div>
+          <p>Free TwoDay delivery on millions of items</p>
+          <p>On orders of $35 or more.</p>
+          <a href="">Start shopping</a>
+          <img class="walmart_delivery_boxes-image" src="images/walmart_delivery_boxes-image.png" alt="">
+        </div>
       </div>
     </section> <!-- /featured_tiles_section -->
 
@@ -108,14 +110,14 @@
     </section>
 
     <section class="shopping_categories_section">
-      <div class="shopping_categories_section-container">
+      <div class="shopping_categories_container">
         <h1>Shop by category</h1>
         <div class="see_more_link">
           <p>See More</p>
           <img class="plus_icon" src="">
         </div>
 
-        <div class="shopping_categories_section-grid">
+        <div class="shopping_categories-grid">
           <div class="category_card">
             <img class="category-image" src="images/category-image_toys.jpg">
             <h4>Toys</h4>
@@ -162,31 +164,33 @@
     <section class="featured_categories_section">
       <div class="featured_categories-container">
         <h1>Great gifts & seasonal go-tos</h1>
-        <div class="featured_category-card">
-          <img class="featured_category-logo" src="images/featured_category-logo_end_of_year_clearance.jpg">
-          <h5>Clearance</h5>
-        </div>
+        <div class="featured_categories-flex">
+          <div class="featured_category-card">
+            <img class="featured_category-logo" src="images/featured_category-logo_end_of_year_clearance.jpg">
+            <h5>Clearance</h5>
+          </div>
 
-        <div class="featured_category-card">
-          <img class="featured_category-logo" src="images/featured_category-logo_xmas_decor.jpg">
-          <h5>Christmas Decor Clearance</h5>
-        </div>
+          <div class="featured_category-card">
+            <img class="featured_category-logo" src="images/featured_category-logo_xmas_decor.jpg">
+            <h5>Christmas Decor Clearance</h5>
+          </div>
 
-        <div class="featured_category-card">
-          <img class="featured_category-logo" src="images/featured_category-logo_toy_clearance.jpg">
-          <h5>Toy Clearance</h5>
-        </div>
+          <div class="featured_category-card">
+            <img class="featured_category-logo" src="images/featured_category-logo_toy_clearance.jpg">
+            <h5>Toy Clearance</h5>
+          </div>
 
-        <div class="featured_category-card">
-          <img class="featured_category-logo" src="images/featured_category-logo_fashion_clearance.jpg">
-          <h5>Fashion Clearance</h5>
+          <div class="featured_category-card">
+            <img class="featured_category-logo" src="images/featured_category-logo_fashion_clearance.jpg">
+            <h5>Fashion Clearance</h5>
+          </div>
         </div>
       </div>
     </section> <!-- /featured_categories_section -->
 
     <section class="multi_story_modules_section">
+      <h1>Post-holiday picks you can't miss</h1>
       <div class="multi_story_modules-container">
-        <h1>Post-holiday picks you can't miss</h1>
         <div class="multi_story_modules-tile">
           <div class="multi_story_modules-info_container cleanup">
             <h3>Cleanup crew</h3>
@@ -211,11 +215,11 @@
     </section> <!-- /multi_story_modules_section -->
 
     <section class="last_chance_modules_section">
+      <div class="last_chance_modules-title">
+        <h1>Toast 2020 in style</h1>
+        <p>Snag last-chance buys at super-low prices.</p>
+      </div>
       <div class="last_chance_modules-container">
-        <div class="last_chance_modules-title">
-          <h1>Toast 2020 in style</h1>
-          <p>Snag last-chance buys at super-low prices.</p>
-        </div>
         <img class="happy_new_year_setup-image" src="images/happy_new_year_setup-image.jpg">
         <div class="last_chance_modules-grid">
           <div class="featured_category-card">
@@ -244,7 +248,6 @@
     <section class="credit_card_section">
       <div class="credit_card_section-container">
         <button class="credit_card_arrow_button"></button>
-        <img class="capital_one_credit_card-image" src="images/">
       </div>
     </section> <!-- /credit_card_section -->
   </main>
@@ -255,13 +258,13 @@
         <input type="text" name="email" placeholder="Enter email for weekly newsletter">
         <!-- forgot how to add a submit button to a form -->
       </form>
-      <ul class="social_links-container">
+      <ul class="social_links_list-container">
         <li class="social_links-item"><i class="fab fa-facebook-f"></i></li>
         <li class="social_links-item"><i class="fab fa-twitter"></i></li>
         <li class="social_links-item"><i class="fab fa-pinterest-p"></i></li>
         <li class="social_links-item"><i class="fab fa-youtube"></i></li>
         <li class="social_links-item"><i class="fab fa-instagram"></i></li>
-        <li class="social_links-item"><i class="fas fa-mobile-alt"></i></li>
+        <li class="social_links-item"><i class="fas fa-mobile-alt"></i> Mobile Apps</li>
       </ul>
     </section> <!-- /social_banner_section -->
 
@@ -331,7 +334,7 @@
 
     <section class="walmart_brands_section">
       <h5>Shop our Brands</h5>
-      <div class="walmart_brands-list">
+      <div class="walmart_brands-grid">
         <div class="walmart_brands-item">
           <img class="walmart_brands-logo allswell-logo" src="images/walmart_brands-logo_allswell.png">
         </div>
@@ -393,8 +396,8 @@
     <section class="copyright_section">
       <div class="copyright_content">
         <!-- copyright logo -->
-        <p>2019 Walmart. All Rights Reserved.</p>
-        <p>To ensure we are able to help you as best we can, please include your reference number: FUKFMA5VTN</p>
+        <p class="copyright_content-year">2019 Walmart. All Rights Reserved.</p>
+        <p class="copyright_content-reference_number">To ensure we are able to help you as best we can, please include your reference number: FUKFMA5VTN</p>
       </div>
     </section>
   </footer>

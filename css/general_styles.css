@@ -1,0 +1,117 @@
+:root {
+	--gray: #ebedee;
+}
+
+body {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header,
+footer {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+.carosel_container {
+	width: 500vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.carosel_card {
+	width: 100vw;
+}
+
+.featured_tiles_container {
+	padding: 1em;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.ad_image_container {
+	width: 100vw;
+}
+
+.shopping_categories_container {
+}
+
+.shopping_categories-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.featured_categories-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.multi_story_modules_section {
+}
+
+.multi_story_modules-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.last_chance_modules-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.last_chance_modules-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.credit_card_section-container {
+	height: 85vh;
+	width: 100%;
+}
+
+.social_banner_section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.social_links_list-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.global_footer_links-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.walmart_brands_section {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid var(--gray);
+}
+
+.walmart_brands-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.walmart_brands-item img{
+	width: 53%;
+}
+
+.copyright_content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.copyright_content-reference_number {
+	text-align: right;
+}
+
