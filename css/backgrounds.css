@@ -1,3 +1,29 @@
+.carosel_card.card1 {
+	background-image: url("../images/carosel_card-image_1.jpg");
+}
+
+.carosel_card.card2 {
+	background-image: url("../images/carosel_card-image_2.jpg");
+}
+
+.carosel_card.card3 {
+	background-image: url("../images/carosel_card-image_3.jpg");
+}
+
+.carosel_card.card4 {
+	background-image: url("../images/carosel_card-image_4.jpg");
+}
+
+.carosel_card.card5 {
+	background-image: url("../images/carosel_card-image_5.jpg");
+}
+
+.carosel_card {
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
 .capital_one_credit_card-image {
 	background-image: url("../images/capital_one_credit_card-image.jpg");
 	background-repeat: no-repeat;
@@ -6,18 +32,17 @@
 
 .multi_story_modules-info_container.cleanup {
 	background-image: url("../images/multi_story_modules-tile-image_1.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
 }
 
 .multi_story_modules-info_container.xmas_deco {
 	background-image: url("../images/multi_story_modules-tile-image_2.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
 }
 
 .multi_story_modules-info_container.organic_boost {
 	background-image: url("../images/multi_story_modules-tile-image_3.jpg");
+}
+
+.multi_story_modules-info_container {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
