@@ -24,10 +24,46 @@ ul {
 	list-style: none;
 }
 
+/* *****************
+	Nav Bar
+
+	comments as of Jan. 5, 2019
+	- The widths are hard coded with px
+		but when shrinking and growing
+		the original page spacing btwn
+		the icons on the left, the search
+		bar and the nav list on the rght
+		is changing with different ratios
+   ***************** */
+.Walmart_logo {
+	background-color: yellow;
+	width: 60px;
+}
+
+.menu_icon {
+	background-color: blue;
+	width: 60px;
+}
+
+.search_bar {
+	background-color: white;
+	width: 420px;
+}
+
+.quick_links {
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+}
+
 .quick_links_list {
 	display: flex;
 	flex-direction: row;
 }
+
+/* *****************
+	/Nav Bar
+   ***************** */
 
 .carosel_container {
 	width: 100%;
