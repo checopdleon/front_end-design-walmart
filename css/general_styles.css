@@ -17,13 +17,13 @@ ul {
 }
 
 .carosel_container {
-	width: 500vw;
-	display: flex;
-	flex-direction: row;
+	width: 100%;
 }
 
 .carosel_card {
-	width: 100vw;
+	background-color: magenta;
+	height: 320px;
+	width: 100%;
 }
 
 .featured_tiles_container {
