@@ -5,6 +5,7 @@
 body {
 	width: 100%;
 	box-sizing: border-box;
+	margin: 0;
 }
 
 header,
@@ -38,16 +39,27 @@ ul {
 }
 
 .shopping_categories_container {
+	width: 100vw;
 }
 
 .shopping_categories-grid {
+	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.category-image {
+	width: 100%;
+}
+
 .featured_categories-flex {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
+}
+
+.featured_category-logo {
+	width: 100%;
 }
 
 .multi_story_modules_section {
@@ -63,7 +75,12 @@ ul {
 	flex-direction: row;
 }
 
+.happy_new_year_setup-image {
+	width: 50%;
+}
+
 .last_chance_modules-grid {
+	width: 50%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
