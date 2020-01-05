@@ -13,8 +13,20 @@ footer {
 	width: 100%;
 }
 
+header {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
 ul {
 	list-style: none;
+}
+
+.quick_links_list {
+	display: flex;
+	flex-direction: row;
 }
 
 .carosel_container {
@@ -76,6 +88,7 @@ ul {
 }
 
 .happy_new_year_setup-image {
+	object-fit: cover;
 	width: 50%;
 }
 
